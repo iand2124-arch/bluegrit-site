@@ -1,0 +1,119 @@
+{
+  "media": {
+    "input": "assets",
+    "output": "assets"
+  },
+  "content": [
+    {
+      "name": "site",
+      "label": "Blue Grit website",
+      "type": "file",
+      "path": "_data/site.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "introduction",
+          "label": "Band introduction",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "hero_image",
+          "label": "Hero background",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "banner_image",
+          "label": "Band banner",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "emblem_image",
+          "label": "Contact emblem",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "lars_heading",
+          "label": "Lars heading",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "lars_bio",
+          "label": "Lars biography",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "lars_image",
+          "label": "Lars photo",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "rich_heading",
+          "label": "Rich heading",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "rich_bio",
+          "label": "Rich biography",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "rich_image",
+          "label": "Rich photo",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "ian_heading",
+          "label": "Ian heading",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "ian_bio",
+          "label": "Ian biography",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "ian_image",
+          "label": "Ian photo",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "contact_heading",
+          "label": "Contact heading",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "contact_intro",
+          "label": "Contact introduction",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "contact_note",
+          "label": "Contact note",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Booking email",
+          "type": "string",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
