@@ -119,6 +119,13 @@ layout: null
         </section>
       </div>
 
+      <!-- Events -->
+      {% if site.data.site.events_heading != blank %}
+      <section class="events" id="events" aria-labelledby="events-title">
+        <h2 id="events-title">{{ site.data.site.events_heading | escape }}</h2>
+      </section>
+      {% endif %}
+
       <!-- Contact -->
       <footer class="contact" id="contact">
         <div>
