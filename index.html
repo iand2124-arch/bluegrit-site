@@ -127,7 +127,7 @@ layout: null
         {% if site.data.site.events.size > 0 %}
         <ul>
           {% for event in site.data.site.events %}
-          <li>{{ event | escape }}</li>
+          <li><h3>{{ event | escape }}</h3></li>
           {% endfor %}
         </ul>
         {% endif %}
